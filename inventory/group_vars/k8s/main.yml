@@ -1,0 +1,3 @@
+---
+ansible_private_key_file: ~/workspace/environments/op-home/op-home.pem
+ansible_user: opertec

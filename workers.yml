@@ -1,4 +1,4 @@
-- hosts: "k8smaster" #name into inventory file.
+- hosts: "k8snodes" #name into inventory file.
   vars:
     domain: local
   tasks:

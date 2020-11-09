@@ -1,0 +1,6 @@
+# file prereqs.yml
+- hosts: "k8s" #name into inventory file.
+  tasks:
+    - name: Bootstrap a host without python installed
+      raw: apt install -y python
+      become: yes
